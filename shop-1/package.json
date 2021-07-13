@@ -1,0 +1,10 @@
+{
+    "name": "shop-1",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "build": "",
+        "start": "node index.js"
+    }
+}
