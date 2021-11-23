@@ -21,11 +21,21 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       {
         "name": "test-repo",
         "reference": "workspace:."
+      },
+      {
+        "name": "sofa-fenix",
+        "reference": "workspace:shops/sofa-fenix"
+      },
+      {
+        "name": "shop-1",
+        "reference": "workspace:shops/testshop"
       }
     ],
     "enableTopLevelFallback": true,
     "ignorePatternData": "(^(?:\\.yarn\\/sdks(?:\\/(?!\\.)(?:(?:(?!(?:^|\\/)\\.).)*?)|$))$)",
     "fallbackExclusionList": [
+      ["shop-1", ["workspace:shops/testshop"]],
+      ["sofa-fenix", ["workspace:shops/sofa-fenix"]],
       ["test-repo", ["workspace:."]]
     ],
     "fallbackPool": [
@@ -37,6 +47,24 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {
           "packageLocation": "./",
           "packageDependencies": [
+          ],
+          "linkType": "SOFT",
+        }]
+      ]],
+      ["shop-1", [
+        ["workspace:shops/testshop", {
+          "packageLocation": "./shops/testshop/",
+          "packageDependencies": [
+            ["shop-1", "workspace:shops/testshop"]
+          ],
+          "linkType": "SOFT",
+        }]
+      ]],
+      ["sofa-fenix", [
+        ["workspace:shops/sofa-fenix", {
+          "packageLocation": "./shops/sofa-fenix/",
+          "packageDependencies": [
+            ["sofa-fenix", "workspace:shops/sofa-fenix"]
           ],
           "linkType": "SOFT",
         }]

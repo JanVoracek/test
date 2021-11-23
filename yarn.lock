@@ -4,6 +4,18 @@
 __metadata:
   version: 4
 
+"shop-1@workspace:shops/testshop":
+  version: 0.0.0-use.local
+  resolution: "shop-1@workspace:shops/testshop"
+  languageName: unknown
+  linkType: soft
+
+"sofa-fenix@workspace:shops/sofa-fenix":
+  version: 0.0.0-use.local
+  resolution: "sofa-fenix@workspace:shops/sofa-fenix"
+  languageName: unknown
+  linkType: soft
+
 "test-repo@workspace:.":
   version: 0.0.0-use.local
   resolution: "test-repo@workspace:."

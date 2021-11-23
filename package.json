@@ -1,6 +1,6 @@
 {
   "name": "test-repo",
   "workspaces": [
-    "*"
+    "shops/*"
   ]
 }
