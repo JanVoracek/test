@@ -1,6 +1,7 @@
 [
   {
     "shop": "testshop",
+    "appDir": "shops/testshop",
     "paths": [
       "shops/testshop",
       ".yarn",
@@ -11,6 +12,7 @@
   },
   {
     "shop": "sofa-fenix",
+    "appDir": "shops/sofa-fenix",
     "paths": [
       "shops/sofa-fenix",
       ".yarn",
