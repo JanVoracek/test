@@ -19,6 +19,9 @@
       "package.json",
       ".yarnrc.yml",
       "yarn.lock"
-    ]
+    ],
+    "env": {
+      "FENIX_VERSION": "1"
+    }
   }
 ]
