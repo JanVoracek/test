@@ -1,5 +1,22 @@
 [
-    {
-        "shop": "testshop"
-    }
+  {
+    "shop": "testshop",
+    "paths": [
+      "shops/testshop",
+      ".yarn",
+      "package.json",
+      ".yarnrc.yml",
+      "yarn.lock"
+    ]
+  },
+  {
+    "shop": "sofa-fenix",
+    "paths": [
+      "shops/sofa-fenix",
+      ".yarn",
+      "package.json",
+      ".yarnrc.yml",
+      "yarn.lock"
+    ]
+  }
 ]
