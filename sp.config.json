@@ -8,7 +8,10 @@
       "package.json",
       ".yarnrc.yml",
       "yarn.lock"
-    ]
+    ],
+    "env": {
+      "SOME_ENV": "1"
+    }
   },
   {
     "shop": "sofa-fenix",
