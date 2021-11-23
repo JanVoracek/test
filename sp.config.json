@@ -1,5 +1,30 @@
 [
-    {
-        "shop": "testshop"
+  {
+    "shop": "testshop",
+    "appDir": "shops/testshop",
+    "paths": [
+      "shops/testshop",
+      ".yarn",
+      "package.json",
+      ".yarnrc.yml",
+      "yarn.lock"
+    ],
+    "env": {
+      "SOME_ENV": "2"
     }
+  },
+  {
+    "shop": "sofa-fenix",
+    "appDir": "shops/sofa-fenix",
+    "paths": [
+      "shops/sofa-fenix",
+      ".yarn",
+      "package.json",
+      ".yarnrc.yml",
+      "yarn.lock"
+    ],
+    "env": {
+      "FENIX_VERSION": "2"
+    }
+  }
 ]

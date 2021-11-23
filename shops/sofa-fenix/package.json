@@ -1,0 +1,10 @@
+{
+    "name": "sofa-fenix",
+    "version": "1.0.1",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "build": "",
+        "start": "node index.js"
+    }
+}
