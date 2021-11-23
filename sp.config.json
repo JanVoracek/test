@@ -10,7 +10,7 @@
       "yarn.lock"
     ],
     "env": {
-      "SOME_ENV": "1"
+      "SOME_ENV": "2"
     }
   },
   {
@@ -24,7 +24,7 @@
       "yarn.lock"
     ],
     "env": {
-      "FENIX_VERSION": "1"
+      "FENIX_VERSION": "2"
     }
   }
 ]
